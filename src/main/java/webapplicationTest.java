@@ -26,11 +26,12 @@ public class webapplicationTest {
        // js.executeScript("window.scrollBy(0,400)");
        // Thread.sleep(10000);
 
-        driver.findElement(By.cssSelector("[alt='Science']:nth-of-type(1)")).click();
+        /*driver.findElement(By.cssSelector("[alt='Science']:nth-of-type(1)")).click();
         WebElement dropDownElement = driver.findElement(By.cssSelector("select#sort_option_selector"));
         Select select = new Select(dropDownElement);
         select.deselectByVisibleText("Price low to high");
+         */
 
+        driver.findElement(By.cssSelector(".priority-code-empty")).click();
     }
-
 }
